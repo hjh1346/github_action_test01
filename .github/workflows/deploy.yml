@@ -40,8 +40,3 @@ jobs:
         run: |
           # terraform 이 이미 inventory.yml 과 ansible.cfg 를 현재 디렉토리에 만들어 놓았습니다.
           ansible-playbook nginx_setup.yml
-
-
-
-
-          echo "# test" >> README.md
